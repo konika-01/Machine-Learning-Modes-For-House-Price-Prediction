@@ -62,10 +62,10 @@ Models implemented:
 --- 
 
 ### `Model Performance`
-Model	                      Train R²  Test R²	MAE	       MSE	          RMSE	          Observation
-Linear Regression	          0.914	  0.8856	  16078.30	   774,647,037.85	  27,832.48	    Slight overfitting observed
-Ridge Regression (α=0.743)	 0.9137	  0.8863	   —	          —         	       —	          Overfitting slightly minimized
-Lasso Regression (α=0.306)	 0.7599	  0.7663	   —           —	                —	          Underfits the data significantly
+1. Model	                      Train R²  Test R²	MAE	       MSE	          RMSE	          Observation
+2. Linear Regression	          0.914	  0.8856	  16078.30	   774,647,037.85	  27,832.48	    Slight overfitting observed
+3. Ridge Regression (α=0.743)	 0.9137	  0.8863	   —	          —         	       —	          Overfitting slightly minimized
+4. Lasso Regression (α=0.306)	 0.7599	  0.7663	   —           —	                —	          Underfits the data significantly
 
 --- 
 
