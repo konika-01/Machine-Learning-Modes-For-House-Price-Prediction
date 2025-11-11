@@ -16,11 +16,9 @@ Use regression analysis to predict the sale price of a property using given feat
 --- 
 ### `Dataset`
 
-Source: (Add source name, e.g., Kaggle — House Prices: Advanced Regression Techniques)
-
-Rows: (add number if known)
-
-Columns: Property features such as LotArea, YearBuilt, TotalBsmtSF, GrLivArea, BedroomAbvGr, etc.
+CSV file added
+Rows: 2073
+Columns : 81
 
 ---
 
