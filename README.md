@@ -17,7 +17,9 @@ Use regression analysis to predict the sale price of a property using given feat
 ### `Dataset`
 
 CSV file added
+
 Rows: 2073
+
 Columns : 81
 
 ---
