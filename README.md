@@ -69,8 +69,16 @@ MAE	   : 16078.30
 MSE	    :774,647,037.85         	        
 RMSE  	 : 27,832.48	   
 Observation: Slight overfitting observed
-Ridge Regression (α=0.743)	 0.9137	  0.8863	   —	          —         	       —	          Overfitting slightly minimized
-Lasso Regression (α=0.306)	 0.7599	  0.7663	   —           —	                —	          Underfits the data significantly
+
+**Model	- Ridge Regression  (α=0.743)**	       
+Train R² :   0.9137		
+Test R²	:   0.8863        	        	   
+Observation: Overfitting slightly minimized
+
+**Model	- Lasso Regression  (α=0.306)**	       
+Train R² :   0.7599		
+Test R²	:   0.7663       	        	   
+Observation: Underfits the data significantly
 
 --- 
 
