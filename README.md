@@ -62,10 +62,10 @@ Models implemented:
 --- 
 
 ### `Model Performance`
-Model	Train R²	Test R²	MAE	MSE	RMSE	Observation
-Linear Regression	0.914	0.8856	16078.30	774,647,037.85	27,832.48	Slight overfitting observed
-Ridge Regression (α=0.743)	0.9137	0.8863	—	—	—	Overfitting slightly minimized
-Lasso Regression (α=0.306)	0.7599	0.7663	—	—	—	Underfits the data significantly
+Model	                      Train R²  Test R²	MAE	       MSE	          RMSE	          Observation
+Linear Regression	          0.914	  0.8856	  16078.30	   774,647,037.85	  27,832.48	    Slight overfitting observed
+Ridge Regression (α=0.743)	 0.9137	  0.8863	   —	          —         	       —	          Overfitting slightly minimized
+Lasso Regression (α=0.306)	 0.7599	  0.7663	   —           —	                —	          Underfits the data significantly
 
 --- 
 
@@ -75,6 +75,16 @@ The Linear Regression model performs well with an R² score of 0.8856 on the tes
 Ridge Regression slightly improves generalization by reducing overfitting.
 Lasso Regression shows higher bias (underfitting), indicating it removes too many features.
 Overall, Ridge Regression provides the most balanced performance.
+
+---
+
+### `Future Improvements`
+
+Feature scaling and normalization for better model stability.
+Hyperparameter tuning using GridSearchCV or RandomizedSearchCV.
+Experiment with Polynomial Regression, Decision Trees, or Random Forest for comparison.
+Deploy the final model using Streamlit or Flask for real-time prediction.
+
 
 --- 
 
